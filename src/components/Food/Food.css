@@ -1,0 +1,27 @@
+.food {
+    box-shadow: 5px 5px 10px gray;
+    transition: all ease 0.5s;
+}
+
+.food:hover {
+    transform: scale(1.03);
+}
+
+.food img {
+    width: 100%;
+}
+
+.food button {
+    margin-bottom: 1rem;
+    padding: 0.4rem 2rem;
+    background-color: bisque;
+    border: 2px solid #f9d2a3;
+    border-radius: 0.5rem;
+    transition: all ease 0.4s;
+}
+
+.food button:hover {
+    background-color: #f9c78b;
+    border: 2px solid #faac4c;
+    cursor: pointer;
+}

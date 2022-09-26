@@ -1,0 +1,15 @@
+.foods {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.left-side {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.right-side {
+    background-color: brown;
+}
