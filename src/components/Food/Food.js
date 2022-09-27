@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Food.css';
 
 const Food = (props) => {
     const {strMealThumb, strMeal, strCategory, strArea} = props.food;
+    // console.log(props.food);
+    const [carts, setCarts] = useState([]);
+
+
 
     return (
         <div className='food'>
@@ -12,7 +16,7 @@ const Food = (props) => {
                 Category: {strCategory} <br />
                 Area: {strArea}
             </h5>
-            <button onClick={() => props.selectEvent(strMeal)}>Select</button>
+            <button onClick={() => props.cartController(strMeal)}>Select</button>
         </div>
     );
 };

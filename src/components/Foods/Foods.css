@@ -12,4 +12,9 @@
 
 .right-side {
     background-color: brown;
+    margin: 2rem 2rem 2rem 0;
+    height: 60vh;
+    position: sticky;
+    top: 0;
+    padding: 2rem;
 }
